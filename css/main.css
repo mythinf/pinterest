@@ -1,0 +1,25 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  position: fixed;
+  top:0px;
+  width: 1000px;
+}
+
+ul{
+  margin: 0px;
+  padding: 4px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  /*text-align: center;*/
+  font-size: 30px;
+}
+div{
+  width: 600px;
+  background: gray;
+}
