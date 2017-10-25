@@ -1,25 +1,78 @@
+
 body{
-  margin: 0px;
-  padding: 0px;
+  display: block;
+  margin: 0;
+  padding: 0;
+
 }
 header{
+  width: 100%;
+  background-color: #FFEBCD;
   position: fixed;
   top:0px;
-  width: 1000px;
+  z-index: 1000;
 }
 
 ul{
-  margin: 0px;
-  padding: 4px;
+  width: auto;
+  padding top: 0;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
 li{
   list-style: none;
   display: inline-block;
-  margin: 10px;
-  /*text-align: center;*/
-  font-size: 30px;
+  margin: 7px;
 }
-div{
-  width: 600px;
-  background: gray;
+
+.searchBox{
+  height: 30px;
+  padding:0px:*/
+}
+
+input{
+  width: 900px;
+  height: 25px;
+  margin: 0.5px
+  border: none;
+
+}
+
+a{
+  padding: 10px 0px;
+  text-decoration: none;
+}
+
+.buttonsBox{
+  width: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+button{
+  background-color: #000000;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
+  width: 95px;
+  height: 50px;
+  font-weight: 700;
+}
+button:hover{
+  filter: contrast(.50);
+}
+section{
+
+  margin:0;
+  padding: 100px;
+}
+
+.img{
+  display: inline-flex;
+  border-radius: 10px;
+}
+
+.img:hover{
+  filter: contrast(.60);
 }

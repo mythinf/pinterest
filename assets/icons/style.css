@@ -27,20 +27,25 @@
 .icon-bubble2:before {
   content: "\e96e";
   color: gray;
+  font-size: 20px;
 }
 .icon-user:before {
   content: "\e971";
   color:gray;
+  font-size: 20px;
 }
 .icon-search:before {
   content: "\e986";
   color: #000000;
+  font-size: 15px;
 }
 .icon-paragraph-justify:before {
   content: "\ea7a";
   color: gray;
+  font-size: 20px;
 }
 .icon-pinterest2:before {
   content: "\ead2";
   color: red;
+  font-size: 40px;
 }
