@@ -50,6 +50,8 @@ a{
   margin-right: 50px;
 }
 button{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
   background-color: #000000;
   margin: 10px;
   color: #fff;
